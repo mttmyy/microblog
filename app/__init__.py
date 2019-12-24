@@ -1,4 +1,6 @@
 from flask import Flask
+import sys
+sys.path.append('.')
 
 app = Flask(__name__)
-from microblog.app import views
+from app import views

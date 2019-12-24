@@ -1,5 +1,6 @@
-from microblog.app import app
-
+from app import app
+import sys
+sys.path.append('.')
 @app.route('/')
 @app.route('/index')
 def index():
